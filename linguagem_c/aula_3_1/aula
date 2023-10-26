@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+//VARIÁVEIS / ATRIBUIÇÃO DE DADOS / CONSTANTES.
+
+#define texto "entrada e saida de dados."
+int main () {
+    //Não conseguiria alterar durante o código o valor desta variável, porque ela foi declarada como constante.
+    printf("%s\n", texto);
+}
