@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 
 //APRENDENDO A APLICAR SWITCH CASE
 
@@ -36,8 +36,6 @@ int main(){
 
         case 7:
         printf("Sábado\n");
-        break;
-        
+        break;       
     }
-
 }
