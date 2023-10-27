@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+//ESPECIFICADORES DE FORMATO.
+
+int main(){
+    //Textos.
+    printf("Oi, tudo bem? Tenho 6 anos e programo.\n");
+
+    //Número inteiros.
+    printf("Valor inteiro: %d", 10);
+
+    //Número de valor real.
+    printf("Valor real: %f.\n", 3.156465);
+
+    //Apenas 2 casas depois da vírgula.
+    printf("Valor real com apenas 2 casas: %.2f.\n", 3.1584);
+
+    //Dado de texto.
+    printf("Dado de texto: %c.\n", 'a');
+
+    //Imprimindo conjunto de caracteres.
+    printf("Imprimindo + de 1 caractere: %s.\n", "testando");
+
+    return 0;
+}
